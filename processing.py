@@ -3,6 +3,8 @@ import os
 import cv2
 import numpy as np
 from imutils import paths
+import matplotlib
+matplotlib.use('agg')
 import matplotlib.pyplot as plt
 from functools import partial
 plt.rcParams['image.cmap'] = 'gray'
